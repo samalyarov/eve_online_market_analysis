@@ -1,6 +1,6 @@
 CREATE TABLE buy_orders (
 	record_id SERIAL PRIMARY KEY,
-	record_date TIMESTAMP WITH TIMEZONE,
+	record_date TIMESTAMP,
 	item_id INT,
 	item_region INT,
 	item_system INT,
