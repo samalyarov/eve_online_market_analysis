@@ -3,7 +3,7 @@ Stage 1 includes creating a database (developing a proper schema, creating table
 
 Database features a simple schema:
 
-![image](https://github.com/samalyarov/eve_online_market_analysis/assets/107198574/e75d24d8-3996-4db7-b8f0-5989d0f8b1a3)
+![image](https://github.com/samalyarov/eve_online_market_analysis/assets/107198574/997be694-552d-40a9-8cf1-0fbb38e6ca5e)
 
 Data collected is divided into two core categories - buy and sale orders (representative of both Eve and real world stock market). These are to be analyzed separately.
 
