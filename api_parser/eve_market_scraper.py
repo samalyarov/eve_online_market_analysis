@@ -4,7 +4,6 @@ print('Parsing script initiated...')
 import requests
 import pandas as pd
 import configparser
-import pytz
 import tqdm
 import asyncio
 
