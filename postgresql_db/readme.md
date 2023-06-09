@@ -5,7 +5,7 @@ Database features a simple schema:
 
 ![image](https://github.com/samalyarov/eve_online_market_analysis/assets/107198574/997be694-552d-40a9-8cf1-0fbb38e6ca5e)
 
-Data collected is divided into two core categories - buy and sale orders (representative of both Eve and real world stock market). These are to be analyzed separately.
+Data collected is divided into two core categories - buy and sale orders (representative of both Eve and real world stock market). These are to be analyzed separately. Both tables are created by similar script (as their structure is identical): https://github.com/samalyarov/eve_online_market_analysis/blob/main/postgresql_db/table_creation.sql
 
 **Table 1: 'item_ids'. Columns:**
 - *PRIMARY KEY + FOREIGN KEY* item_id (int8): item_id in eve online database. Used for making API calls and decreasing the DB complexity (to write ids instead of names in other tables). 
