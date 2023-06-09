@@ -5,7 +5,6 @@ import requests
 import pandas as pd
 import configparser
 import tqdm
-import asyncio
 
 from datetime import datetime
 from sqlalchemy import create_engine 
@@ -48,7 +47,7 @@ systems = {30000142: 'Jita', #Jita IV - Moon 4 - Caldari Navy Assembly Plant (Ca
            30000144: 'Perimeter' # Tranquility Trading Tower
            }
 
-# Loop for eaach system in the dictionary
+# Loop for each system in the dictionary
 for system in systems.keys():
     print(f'Loading data from {systems[system]}...')
     '''
