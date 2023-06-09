@@ -10,7 +10,6 @@ Data collected is divided into two core categories - buy and sale orders (repres
 **Table 1: 'item_ids'. Columns:**
 - *PRIMARY KEY + FOREIGN KEY* item_id (int8): item_id in eve online database. Used for making API calls and decreasing the DB complexity (to write ids instead of names in other tables). 
 - item_name (varchar): item name in game (as shown to players). Useful to understand what item are we talking about and to display in graphs|analysis.
-- 
 Directory also contains a 'typeids.csv' file loaded from Fuzzworks containings names and ids of all entities in the game. Useful for creating the type IDs table in the DB. Item source: https://www.fuzzwork.co.uk/resources/typeids.csv
 
 
