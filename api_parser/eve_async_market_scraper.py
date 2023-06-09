@@ -50,12 +50,15 @@ systems = {30000142: 'Jita', #Jita IV - Moon 4 - Caldari Navy Assembly Plant (Ca
            }
 
 async def gather_data(session, link):
+    '''
+    Async function for API calls
+    '''
     async with session.get(link) as response:
         return await response.json()
 
 async def main(system):
     '''
-    A function for getting all the data on the system market from EVE API.
+    Main async function for getting all the data on the system market from EVE API.
     Built for concurrent API calls to get data on all the systems at once (much faster, but more taxing on CPU)
     '''
 
