@@ -1,7 +1,7 @@
 # EVE API parser
 Directory containing the EVE API parser scrips. Additional info on EVE market API calls can be found [here](https://wiki.eveuniversity.org/API_access_to_market_data).
 
-**File 1: [*https://github.com/samalyarov/eve_online_market_analysis/blob/main/api_parser/eve_async_market_scraper.py*](https://github.com/samalyarov/eve_online_market_analysis/tree/main/postgresql_db).**
+**File 1: [*eve_async_market_scraper.py*](https://github.com/samalyarov/eve_online_market_analysis/blob/main/api_parser/eve_async_market_scraper.py).**
 - The current version of the script automated with the use of Windows Task Scheduler to run every hour. 
 - Script uses the aiohttp library (similar to requests but allows for interaction with asyncio and asynchronous programming in general. 
 - The script connects to a local database using sqlalchemy (can be switched to connect to external one by changing key parameters in db_config.ini), gets market data for 6 key in-game trading hubs through API calls. These market calls are done asynchronously (all 6 at the same time)
