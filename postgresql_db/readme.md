@@ -1,5 +1,9 @@
 # PostgreSQL Database
-Stage 1 includes creating a database (developing a proper schema, creating tables and setting up connections in order to fill it an export data later on. I've used a Docker Container in order to host the database and sqlalchemy + DBeaver to set it up and edit.
+Stage 1 includes creating a database (developing a proper schema, creating tables and setting up connections in order to fill it an export data later on. 
+
+I've originally used a Docker Container to deploy the database, but after a couple of weeks of gathering data the storage requirements made in too inefficient and I've relocated it to hard drive. Still, the database remains local.
+
+I've used sqlalchemy + DBeaver to set the database up and edit it.
 
 Database features a simple schema:
 
