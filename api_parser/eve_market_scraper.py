@@ -36,7 +36,7 @@ ids = pd.read_excel('typeids.xlsx')['object_id']
 
 # Get current time
 current_time = datetime.now().replace(second=0, microsecond=0)
-current_time = current_time.strftime("%d/%m/%Y, %H:%M:%S")
+current_time = current_time.strftime("%Y/%m/%d, %H:%M:%S")
 
 # Identifying systems for data collection (rolling with 5 biggest trade hubs in the game):
 systems = {30000142: 'Jita', #Jita IV - Moon 4 - Caldari Navy Assembly Plant (Caldari)
